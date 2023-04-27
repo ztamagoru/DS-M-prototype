@@ -1,7 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     color: white;
-    background-color: #bc2130;
+    background-color: #e31f2b;
     margin: 0px;
 }
 
@@ -96,4 +96,63 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  /**********************************************/
+
+  .menu-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .button-conteiner {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .button {
+    flex: 1 1 auto;
+    margin: 30px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+  }
+
+.text {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+
+  .button-title {
+    flex: 1 1 auto;
+    position: relative;
+    margin: none;
+    margin-top: 11px;
+    
+  }
+
+  .button-description {
+    flex: 1 1 auto;
+    font-size: 13px;
+    position: relative;
+    margin-top: -10px;  
+  }
+
+  .divider {
+    border-top: 2.5px solid white;
+    width: 95%;
+    border-radius: 5px;
+    margin:0px;
+  }
+
+  #img {
+    filter: brightness(0) invert(1);
   }

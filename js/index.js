@@ -39,3 +39,9 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  /*******************************************************/
+
+  function openLink() {
+    window.open("./locales.html","_self")
+  }
