@@ -4,3 +4,39 @@ body {
     background-color: #e31f2b;
     margin: 0px;
 }
+
+.map {
+    width: 100%
+}
+
+.text {
+    margin-left: 20px;
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+
+.location-title {
+    flex: 1 1 auto;
+    position: relative;
+    margin: 0px;
+    margin-top: 11px;
+    
+  }
+
+.location-description {
+    flex: 1 1 auto;
+    font-size: 13px;
+    position: relative;
+    margin-top: 5px;  
+  }
+
+  .divider {
+    border-top: 2.5px solid white;
+    width: 95%;
+    border-radius: 5px;
+    margin:0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }

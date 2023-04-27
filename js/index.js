@@ -33,11 +33,21 @@ function showSlides() {
 /**********************************************************/
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "80%";
-  }
-  
-  function closeNav() {
+    document.getElementById("mySidenav").style.width = "80%"; 
+    document.body.style.backgroundColor = "#A3141E";
+}
+
+function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.body.style.backgroundColor = "#e31f2b";
+    
+    /*
+    var dividers = document.getElementsByClassName("divider");
+
+    Array.from(dividers).forEach(element => {
+        element.style.
+    });
+    */
   }
 
   /*******************************************************/
