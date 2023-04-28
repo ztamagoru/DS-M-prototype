@@ -15,3 +15,10 @@ function closeNav() {
 function homeButton() {
   window.open("./index.html","_self") 
 }
+
+function addressChange(div){
+  var id = div.id;
+  var text = document.getElementById(id).getElementsByClassName("address")[0];
+  var finaladdress = text.textContent;
+  console.log(finaladdress);
+}

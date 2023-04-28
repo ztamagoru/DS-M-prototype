@@ -29,8 +29,8 @@ body {
 .location-description {
   flex: 1 1 auto;
   font-size: 13px;
-  position: relative;
-  margin-top: 5px;  
+  position: relative; 
+  margin-bottom: 10px;
 }
 
 .divider {
@@ -98,7 +98,7 @@ body {
 
 .sidenav a {
   margin-left: 15px;
-  padding-top: 7px;
+  padding-top: 2px;
   text-decoration: none;
   flex: 1 1 auto;
   position: relative;
@@ -133,9 +133,12 @@ body {
 .menu-icon {
   width: 30px;
   height: 30px;
-  padding-top: 3px;
+  padding-top: 9px;
 }
 
 #img {
   filter: brightness(0) invert(1);
 }
+
+/*****************************************************/
+

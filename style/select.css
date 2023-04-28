@@ -16,8 +16,10 @@ body {
     border-width: 2.25px;
     border-color: white;
     border-style: solid;
-    margin: 2.5px;
+    margin: 3px;
     padding: 3px;
+    padding-right: 5px;
+    padding-bottom: 5px;
   }
 
 .icon{
@@ -44,6 +46,7 @@ body {
 .back {
     display:flex;
     flex-flow: row;
+    margin-bottom: 3px;
 }
 
 .text {
