@@ -55,3 +55,7 @@ function closeNav() {
   function openLink() {
     window.open("./locales.html","_self")
   }
+
+  function popup() {
+    alert ("Esta página ha sido pensada para ser vista desde un teléfono móvil.")
+}
