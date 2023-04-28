@@ -22,6 +22,8 @@ var timeOut = 0;
 var slideIndex = 0;
 var autoOn = true;
 
+const DEFAULT_ADDRESS = "Jose Pedro Varela 4862 ( CABA )"
+
 autoSlides();
 
 function autoSlides() {
@@ -50,8 +52,11 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
 }
 
-/************************************************************/
-
 function openlink() {
   window.open("./numero.html","_self") 
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  let location = new URLSearchParams(window.location.search)
+  let address = document.getElementsByClassName("address")[0].textContent = `${location.get('location') || DEFAULT_ADDRESS}`
+})

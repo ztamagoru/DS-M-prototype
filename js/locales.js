@@ -16,9 +16,19 @@ function homeButton() {
   window.open("./index.html","_self") 
 }
 
+/************************************************************/
+
+var finaladdress;
+
 function addressChange(div){
   var id = div.id;
-  var text = document.getElementById(id).getElementsByClassName("address")[0];
-  var finaladdress = text.textContent;
+  var text = document.getElementById(id).getElementsByClassName("address")[0];  
+
+  finaladdress = text.textContent;
   console.log(finaladdress);
+
+  window.open(`./select.html?location=${encodeURIComponent(finaladdress)}`,"_self")
+
+
 }
+
