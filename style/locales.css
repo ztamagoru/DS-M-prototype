@@ -1,8 +1,9 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   background-color: #e31f2b;
   margin: 0px;
+  margin-bottom: 30px;
 }
 
 .map {
@@ -55,11 +56,11 @@ body {
 }
 
 .title {
-    font-size: xx-large;
-    font-weight: 700;
-    flex: 1 1 auto;
-    position: relative;
-    padding-left: 10px;
+  font-size: xx-large;
+  font-weight: 700;
+  flex: 1 1 auto;
+  position: relative;
+  padding-left: 10px;
 }
 
 .tmenu-icon {
