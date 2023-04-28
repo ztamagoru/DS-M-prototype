@@ -49,3 +49,9 @@ function showSlides() {
     }
     slides[slideIndex - 1].style.display = "block";
 }
+
+/************************************************************/
+
+function openlink() {
+  window.open("./numero.html","_self") 
+}
