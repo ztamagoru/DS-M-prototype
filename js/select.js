@@ -7,7 +7,11 @@ function openLink() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  var address = window.sessionStorage.getItem("address");
-
-  document.getElementsByClassName("address")[0].textContent = address || `DEFAULT_ADDRESS`;
+  
 })
+
+function getAddress() {
+  var localSeleccionado = window.sessionStorage.getItem("local");
+
+  document.getElementsByClassName("address")[0].textContent = localSeleccionado.trim() || `DEFAULT_ADDRESS`;
+}

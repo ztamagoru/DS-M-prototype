@@ -22,7 +22,6 @@ function addressChange(div){
 
   finaladdress = text.textContent;
 
-  window.sessionStorage.setItem("address", finaladdress);
+  window.sessionStorage.setItem("local", finaladdress);
   window.open("./select.html", "_self")
-  //window.open(`./select.html?location=${encodeURIComponent(finaladdress)}`,"_self")
 }
