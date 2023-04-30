@@ -64,7 +64,7 @@ body {
 
 .text-input input {
     background-color: transparent;
-    width: min-content;
+    width: 250px;
     height: min-content;
     text-align: center;
     font-size: 30px;

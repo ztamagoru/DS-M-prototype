@@ -14,4 +14,3 @@ function homeButton() {
     window.open("./index.html","_self") 
 }
 
-function 
