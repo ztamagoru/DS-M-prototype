@@ -2,20 +2,6 @@ function openLink() {
   window.open("./select.html","_self")
 }
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "80%"; 
-  document.body.style.backgroundColor = "#A3141E";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.body.style.backgroundColor = "#e31f2b";
-}
-
-function homeButton() {
-  window.open("./index.html","_self") 
-}
-
 function buttonPressed(div) {
   var id = div.id;
 
@@ -28,8 +14,6 @@ function buttonPressed(div) {
   }
 }
 
-/************************************************************/
-
 var finaladdress;
 
 function addressChange(div){
@@ -37,7 +21,8 @@ function addressChange(div){
   var text = document.getElementById(id).getElementsByClassName("address")[0];
 
   finaladdress = text.textContent;
-  console.log(finaladdress);
 
-  window.open(`./select.html?location=${encodeURIComponent(finaladdress)}`,"_self")
+  window.sessionStorage.setItem("address", finaladdress);
+  window.open("./select.html", "_self")
+  //window.open(`./select.html?location=${encodeURIComponent(finaladdress)}`,"_self")
 }
