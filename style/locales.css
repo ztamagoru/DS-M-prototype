@@ -63,22 +63,15 @@ body {
   white-space: nowrap;
 }
 
-.method {
+#m1, #m2, #m3 {
   flex: 1 1 auto;
   padding: 5px 10px 5px 10px;
   margin: 5px 7px 5px 0px;
   text-align: center;
-  justify-content: center;
   border-radius: 25px;
   border-width: 2px;
   border-color: white;
   border-style: solid;
-  background-color: #e31f2b;
-  color: white;
-}
-
-.method:hover {
-  cursor: pointer;
 }
 
 /********************************************************************/

@@ -17,12 +17,14 @@ function homeButton() {
 }
 
 function buttonPressed(div) {
-  if (document.getElementById(div.id).style.backgroundColor === "rgb(227, 31, 43)") {
-    document.getElementById(div.id).style.backgroundColor = "white";
-    document.getElementById(div.id).style.color = "rgb(227, 31, 43)";
+  var id = div.id;
+
+  if (document.getElementById(id).style.backgroundColor === "rgb(227, 31, 43)") {
+    document.getElementById(id).style.backgroundColor = "white";
+    document.getElementById(id).style.color = "rgb(227, 31, 43)";
   } else {
-    document.getElementById(div.id).style.backgroundColor = "rgb(227, 31, 43)";
-    document.getElementById(div.id).style.color = "white";
+    document.getElementById(id).style.backgroundColor = "rgb(227, 31, 43)";
+    document.getElementById(id).style.color = "white";
   }
 }
 
