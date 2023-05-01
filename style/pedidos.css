@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+    color:black;
+}
+
+.mconteiner {
+    display:flex;
+    flex-flow: column;
+}
+
+.menus {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.moption {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: row;
+    width: 95%;
+    padding: 10px 5px 10px 15px;
+}
+
+.highlights {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.hitem {
+    flex: 1 1 auto;
+}
+
+.opt-info {
+    flex: 1 1 auto;
+    width: 70%;
+}
+
+.opt-img {
+    flex: 1 1 auto;
+    padding: 0px;
+}
+
+.oimg {
+    width: 114.5px;
+    height: 99px;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.item-name {
+    font-size: 20px;
+}
+
+.item-description {
+    font-size: 12.5px;
+    color:dimgray;
+}
+
+.item-price {
+    margin-top: 7.5px;
+    font-size: 20px;
+}
+
+.item-divider {
+    width: 100%;
+    border-top: 2.5px solid gray;
+}
+
+.menu-title {
+    padding-left: 15px;
+    background-color: #e31f2b;
+    color: white;
+    margin: 0;
+}
