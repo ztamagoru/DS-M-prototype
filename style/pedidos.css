@@ -1,11 +1,13 @@
 body {
     background-color: white;
     color:black;
+    height: 100vh;
 }
 
 .mconteiner {
     display:flex;
     flex-flow: column;
+    min-height: min-content; /* needs vendor prefixes */
 }
 
 .menus {
@@ -67,7 +69,7 @@ body {
 
 .item-divider {
     width: 100%;
-    border-top: 2.5px solid gray;
+    border-top: 2.5px solid #E0E0E0;
 }
 
 .menu-title {
@@ -75,5 +77,44 @@ body {
     background-color: #e31f2b;
     color: white;
     margin: 0;
+    margin-top: 5px;
+    padding: 2.5px 0px 2.5px 15px;
     text-transform: uppercase;
+}
+
+.pagethingie {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.box {
+    flex: 1;
+    display: flex;
+    overflow: auto;
+}
+
+.toc {
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    height: min-content;
+    background-color: #B61621;
+    color: white;
+}
+
+.toc-item {
+    flex: 0 0 auto;
+    height: fit-content;
+    width: max-content;
+    box-sizing: border-box;
+    background-color: #A3141E;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
 }

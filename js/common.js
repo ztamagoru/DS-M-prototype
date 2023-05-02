@@ -16,7 +16,7 @@ var timeOut = 0;
 var slideIndex = 0;
 var autoOn = true;
 
-autoSlides();
+document.addEventListener('DOMContentLoaded', autoSlides);
 
 function autoSlides() {
     timeOut = timeOut - 20;

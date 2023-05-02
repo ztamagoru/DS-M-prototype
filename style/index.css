@@ -16,12 +16,6 @@
     margin: none;
 }
 
-.header {
-  display: flex;
-  flex-flow: row;
-  margin:15px;
-}
-
 .micon {
   flex: 0 0 auto;
   position: relative;

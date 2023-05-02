@@ -15,9 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <div class="header-background"></div>
-        
+    <div class="pagethingie">
         <div class="header">
             <span onclick="openNav()" class="micon">
                 <svg class="menu-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -99,52 +97,52 @@
             </div>
         </div>
         
-        <div>
-            <div id="toc" class="toc">
-                
-            </div>
-            
-            <div class="highlights">
-                
-            </div>
-            
-            <template id="toc-item-template">
-                <div onclick="toctoc('{{ID_CATEGORIA}}')">
-                    {{TITULO_CATEGORIA}}
-                </div>
-            </template>
-
-            <template id="menu-categoria-template">
-                <div id="{{ID_CATEGORIA}}" class="menus">
-                    <h4 class="menu-title">{{TITULO_CATEGORIA}}</h4>
-                    {{OPCIONES_CATEGORIA}}
-                </div>
-            </template>
-            
-            <template id="menu-opcion-template">
-                <div class="moption">
-                    <div class="opt-info">
-                        <div class="item-name">
-                            <b>{{NOMBRE_OPCION}}</b>
-                        </div>
-                        <div class="item-description">
-                            {{DESCRIPCION_OPCION}}
-                        </div>
-                        <div class="item-price">
-                            <b>{{PRECIO_OPCION}}</b>
-                        </div>
-                    </div>
-                    <div class="opt-img">
-                        <img src="{{IMAGEN_OPCION}}" class="oimg">
-                    </div>
-                </div>
-                <center><div class="item-divider"></div></center>
-            </template>
-            
+        <div id="toc" class="toc">
+        </div>
+        
+        <div class="highlights">
+        </div>
+        
+        <div class="box">
             <div id="menu" class="mconteiner">
-
             </div>
         </div>
+
     </div>
+    
+
+    <template id="toc-item-template">
+        <div class="toc-item" onclick="toctoc('{{ID_CATEGORIA}}')" style="background-color: rgb(163, 20, 30);">
+            {{TITULO_CATEGORIA}}
+        </div>
+    </template>
+
+    <template id="menu-categoria-template">
+        <div id="{{ID_CATEGORIA}}" class="menus">
+            <h4 class="menu-title">{{TITULO_CATEGORIA}}</h4>
+            {{OPCIONES_CATEGORIA}}
+        </div>
+    </template>
+    
+    <template id="menu-opcion-template">
+        <div class="moption">
+            <div class="opt-info">
+                <div class="item-name">
+                    <b>{{NOMBRE_OPCION}}</b>
+                </div>
+                <div class="item-description">
+                    {{DESCRIPCION_OPCION}}
+                </div>
+                <div class="item-price">
+                    <b>{{PRECIO_OPCION}}</b>
+                </div>
+            </div>
+            <div class="opt-img">
+                <img src="{{IMAGEN_OPCION}}" class="oimg">
+            </div>
+        </div>
+        <center><div class="item-divider"></div></center>
+    </template>
+    
 </body>
 </html>
