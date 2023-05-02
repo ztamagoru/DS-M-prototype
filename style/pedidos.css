@@ -54,17 +54,17 @@ body {
 }
 
 .item-name {
-    font-size: 20px;
+    font-size: 17.5px;
 }
 
 .item-description {
-    font-size: 12.5px;
+    font-size: 10px;
     color:dimgray;
 }
 
 .item-price {
     margin-top: 7.5px;
-    font-size: 20px;
+    font-size: 17.5px;
 }
 
 .item-divider {
