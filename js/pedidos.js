@@ -852,8 +852,6 @@ let menu = [
 
 //#endregion
 
-
-
 // VISTA
 
 function vistaOpcion(opcion) {

@@ -11,7 +11,6 @@ function closeNav() {
 function homeButton() {
     window.open("./index.html","_self") 
 }
-
 var timeOut = 0;
 var slideIndex = 0;
 var autoOn = true;
@@ -43,3 +42,16 @@ function showSlides() {
     }
     slides[slideIndex - 1].style.display = "block";
 }
+
+////////////////////////////////////////////////////////////////////
+
+function openCamera() {
+    window.open("./photo.html","_self") 
+}
+
+document
+    .getElementById("cameraFileInput")
+    .addEventListener("change", function() {
+        window.open("./pedidos  .html","_self") 
+    }
+    )
