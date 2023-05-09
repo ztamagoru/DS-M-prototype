@@ -52,6 +52,6 @@ function openCamera() {
 document
     .getElementById("cameraFileInput")
     .addEventListener("change", function() {
-        window.open("./pedidos.html","_self") 
+        window.open("./number.html","_self") 
     }
     )
